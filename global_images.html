@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global Images</title>
+    <link rel="icon" href="http://icons.iconarchive.com/icons/treetog/junior/64/camera-icon.png">
+    <style>
+    body{
+        background-color: #333;
+    }
+    #container{
+border-bottom: 10px solid #999;
+text-align: center;
+padding-bottom: 50px;
+padding-top: 50px;
+    }
+    img{
+margin-right: -187px;
+margin-left: -187px;
+border: 5px solid orange;
+padding: 30px;
+background-color: #777;
+box-shadow: 0 0 5px 3px #111;
+transition: 0.5s;
+    }
+    .i-1{
+        transform: rotate(15deg);
+    }
+    .i-2{
+        transform: rotate(25deg);
+    }
+    .i-3{
+        transform: rotate(35deg);
+    }
+    .i-4{
+        transform: rotate(45deg);
+    }
+    .i-5{
+        transform: rotate(55deg);
+    }
+img:hover{
+    border-color: aqua;
+    transform: rotate(3600deg);
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img class="i-1" src="https://picsum.photos/id/903/300/500" alt="unu">
+        <img class="i-2" src="https://picsum.photos/id/904/300/500" alt="doi">
+        <img class="i-3" src="https://picsum.photos/id/905/300/500" alt="trei">
+        <img class="i-4" src="https://picsum.photos/id/906/300/500" alt="patru">
+        <img class="i-5" src="https://picsum.photos/id/907/300/500" alt="cinci">
+    </div>
+</body>
+</html>
